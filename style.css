@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(191, 181, 218, 1) 60%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  color: #ffffff;
+}
+#events-container {
+  margin-bottom: 20px;
+}
+.event-item {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 50px;
+}
+#events-container {
+  list-style-type: none;
+}
+button {
+  margin-left: 20px;
+  background-color: #c1121f;
+}
+.addbtn {
+  margin-top: 10px;
+  margin-left: 0px;
+  background-color: lightgreen;
+  padding: 6px 16px;
+  border-radius: 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+.vse {
+  text-align: center;
+}
+.akce {
+  margin-bottom: 10px;
+}
+
+/* CSS */
+.button-24 {
+  background: #ff4742;
+  border: 1px solid #ff4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 10px;
+  min-height: 20px;
+  outline: 0;
+  padding: 10px 5px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff4742;
+}
+
+.button-24:active {
+  opacity: 0.5;
+}
+img {
+  position: fixed;
+  width: 150px;
+  margin-left: 100px;
+}
+img {
+  position: fixed;
+  width: 150px;
+  text-align: left;
+}
+.img2 {
+  position: fixed;
+  width: 150px;
+  text-align: right;
+}
+img {
+  position: fixed;
+  width: 150px;
+}
+.img1 {
+  left: 100px;
+}
+.img2 {
+  right: 100px;
+}

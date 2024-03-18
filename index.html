@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <img src="journal.png" />
+    <img src="feather-pen.png" class="img2" />
+    <title>Osobní diář</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Osobní diář</h1>
+    <div class="vse">
+      <div class="event-inputs">
+        <div class="akce">
+          <label for="event">Akce: </label>
+          <input type="text" id="event" />
+        </div>
+        <div class="datum">
+          <label for="date">Datum:</label>
+          <input type="date" id="date" />
+        </div>
+      </div>
+      <div>
+        <button onclick="addEvent()" class="addbtn">Přidat</button>
+      </div>
+    </div>
+    <div id="events-container">
+      <h3>Záznamy:</h3>
+      <ul id="events-list"></ul>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
